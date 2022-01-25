@@ -1,0 +1,240 @@
+
+
+.historias{
+    width: 60%;
+    height: 100px;
+    margin: 25px 0 ;
+    border: 1px solid rgb(168, 166, 166);
+    
+}
+
+
+
+
+
+
+
+.nav-img{
+    width: 40px;
+}
+
+
+
+
+
+/* HISTORIAS    */
+
+.historias{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.historias-radius{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+    border: 2px solid rgb(255, 0, 242);
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    padding: 15px;
+    position: relative;
+    top: 20px;
+
+
+}
+
+
+
+hr{
+    border: 1px solid rgb(168, 166, 166);
+}
+
+.img-nav{
+    width: 60px;
+}
+
+ul{
+    list-style: none;
+}
+
+/*   NAVEGACION      */
+
+.nav-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+}
+
+.nav-brand{
+    width: 80px;
+}
+
+.nav-main ul {
+    display: flex;
+
+}
+
+.nav-main ul li{
+    padding: 10px 0;
+}
+input{
+    position: relative;
+    left: 40px;
+}
+/* contenido */
+.usuario{
+    display: flex;
+     width: 60%;
+     height: 70px;
+     margin: 25px 0 ;
+     border: 1px solid rgb(168, 166, 166); 
+    
+}
+
+.img-paris{
+    width: 60%;
+    position: relative;
+    bottom: 25px
+}
+
+
+.like-coment{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+   
+}
+
+.caja-3{
+    display: flex;
+    position: relative;
+    bottom: 50px;
+    width: 60%;
+    height: 60px;
+    margin: 25px 0 ;
+    border: 1px solid rgb(168, 166, 166);  
+}
+
+.corazon{
+    display: flex;
+    padding:  10px 5px;
+}
+
+.perfil-usuario{
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    border: 2px solid rgb(255, 0, 242);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: aqua; 
+    
+
+
+}
+
+.textop{
+    position: relative;
+    left: 60px;
+}
+
+/*  ASIDE */
+.contenedor-aside{
+    position: fixed;
+    
+}
+.aside{
+
+    width: 35%;
+    height: 500px;
+    margin: 25px 0 ;
+    position: relative;
+    left: 1500%;
+    bottom: 4290px;
+    padding: 0;
+    margin: 0;
+
+}
+
+.perfil2{
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 20px;
+    border: 2px solid rgb(255, 0, 242);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: aqua; 
+}
+
+.texto-pefil{
+    position: relative;
+    left: 65px;
+
+}
+
+.sugerencias2{
+
+    border: 2px solid black;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin: 15px 0;
+    position: relative;
+    left: 20px;
+    top: 20px;
+    background-color: aqua; 
+
+
+}
+
+
+/*  MEDIA QUERIS */ 
+@media screen and (max-width: 560px){
+
+    .textop{
+        font-size: 13px;
+    }
+
+  .nav-main{
+      display: none;
+  }
+
+  hr{
+      display: none;
+  }
+
+  .historias{
+    width: 100%;   
+}
+
+.usuario{
+   width: 100%; 
+    
+}
+
+.caja-3{
+    width: 100%;
+}
+
+
+.img-paris{
+    width: 100%;
+}
+
+
+.like-coment{
+    position: relative;
+    right: 30px;
+}
+
+
+
+}
